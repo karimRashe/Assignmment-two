@@ -55,6 +55,12 @@ margin-top: -20px;
 }
 .start-one img{
   width: 90%;
+  transition:width 10s ;
+
+}
+.start-one img:hover{
+    
+    transform:rotate(180deg);
 
 }
 .link-button{
@@ -236,6 +242,53 @@ padding-top: 45px;
             text-align: center;
            
         }
+
+
+/* Media Queries  */
+/* Mobile Devices  */
+@media only screen  and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+     .courses {
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container, .courses{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
        
-   /* Media Queries  */
+  /* tablet devices  */
+
+
+
+
+
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .container, .courses{
+        background-color: tomato;
+        grid-template-columns:repeat(2, 1fr) ;
+        align-items: center;
+    }
+
+}
 
