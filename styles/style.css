@@ -1,0 +1,97 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: honeydew;
+   
+    
+}
+main{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+    
+}
+
+
+.flexible-container{ 
+  display: flex;
+  
+  
+
+  
+  
+}
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+    color: grey;
+}
+.r {
+   
+    font-size: 15px;
+    color:grey;
+    margin-bottom: 45px;
+margin-top: -20px;
+}
+
+
+
+
+.half-one{
+    width: 45%;
+    padding-left: 10%;
+    
+   
+    
+
+}
+.start-one img{
+  width: 90%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 400;
+    padding: 10px 60px;
+    border-radius: 8px;
+}
+
+
+.item {
+    margin-top: 100px;
+}
+.border{
+    border: 3px solid rgb(241, 241, 234);
+    padding-top: 20px;
+    border-radius: 10px;
+     box-shadow: #ffffff
+}
+
+.img-1{
+    padding-right: 70px;
+
+}
+.img-2{
+    padding-right: 60px;
+}
+.img-3{
+    padding-right: 50px;
+}
+.img-4{
+    padding-right: 40px;
+}
+.img-5{
+    padding-right: 30px;
+}
+.img-6{
+    padding-right: 20px;
+}
+.img-7{
+    padding-right: 10px;
+}
