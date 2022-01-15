@@ -19,6 +19,10 @@ main{
 
 .flexible-container{ 
   display: flex;
+  width: 1200px;
+  padding: 10px;
+  border: 2px;
+  margin-top: 10px;
   
   
 
@@ -95,3 +99,143 @@ margin-top: -20px;
 .img-7{
     padding-right: 10px;
 }
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-top: -20px;
+    padding-left: 80px;
+}
+
+
+.course .course-banner img{
+    width: 200px; 
+    height: 100px;
+        padding-left: 10px;
+ }
+
+
+ .coures-info{
+     display: flex;
+     align-items: center;
+   
+ }
+
+ .fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+  color: #ffc014; 
+  margin-left: 5px; 
+}
+.fa-star.empty{
+    color: #AEAEAE; 
+    margin-left: 2px;
+  }
+
+.section-title{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+.course-detail{
+    font-size: 30px;
+margin-top: 10px;
+
+padding-left: 3%;
+}
+.dora{
+
+}
+
+.cours{
+    
+    
+    margin-top: 20px;
+}
+
+
+.dolor{
+    
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: -20px;
+        margin-bottom: -5px;
+        font-size: 45px;
+
+
+
+}
+
+.five{
+
+    padding-left: 10px;
+    
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-top: -3px;
+}
+}
+.sit{
+    margin-bottom: -15px;
+}
+.cours {
+   border: 3px solid lightgrey;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(255, 253, 253);
+    
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+   
+width: 401px;
+padding-bottom: 175px;
+padding-top: 45px;
+}
+.login-form input,
+        button {
+            font-size: 1.3em;
+            margin-top: 15px;
+            border: 1px solid hotpink;
+            
+            padding-left: 130px;
+
+        }
+        .login-form button {
+            background-color: orange;
+            color: red;
+            font-weight: 800;
+            padding: 5px;
+            border: 0;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .target{
+
+        }
+        footer{
+            background-color: black;
+            height: 100px;
+            padding-top: 50px;
+            color: white;
+        
+        }
+        .footer-and{
+            
+            text-align: center;
+           
+        }
+       
+   /* Media Queries  */
+
